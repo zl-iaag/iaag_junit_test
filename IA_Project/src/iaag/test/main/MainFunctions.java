@@ -1,0 +1,15 @@
+package iaag.test.main;
+
+public class MainFunctions {
+
+
+	//Function to calculate n!=1¡Á2¡Á3¡Á...¡Án
+	public static long fact(long n) {
+        long r = 1;
+        for (long i = 1; i <= n; i++) {
+            r = r * i;
+        }
+        return r;
+    }
+
+}

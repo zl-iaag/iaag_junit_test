@@ -1,0 +1,18 @@
+package iaag.test.main;
+
+public class MainFunctions {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static long fact(long n) {
+        long r = 1;
+        for (long i = 1; i <= n; i++) {
+            r = r * i;
+        }
+        return r;
+    }
+
+}
