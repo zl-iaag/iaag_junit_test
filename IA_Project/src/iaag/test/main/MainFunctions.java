@@ -12,4 +12,10 @@ public class MainFunctions {
         return r;
     }
 
+	
+	public static void main(String args[]) {
+		
+		System.out.print("tested ok");
+	}
+	
 }

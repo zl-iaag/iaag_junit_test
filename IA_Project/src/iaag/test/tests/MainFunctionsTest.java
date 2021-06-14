@@ -14,8 +14,15 @@ public class MainFunctionsTest {
         assertEquals(1, MainFunctions.fact(1));
         assertEquals(2, MainFunctions.fact(2));
         assertEquals(6, MainFunctions.fact(3));
-        assertEquals(3628800, MainFunctions.fact(10));
+        assertEquals(3628801, MainFunctions.fact(10));
         assertEquals(2432902008176640000L, MainFunctions.fact(20));
     }
+	
+	@Test
+	public void testOther() {
+		
+		assertTrue(1<5);
+
+	}
 	
 }
