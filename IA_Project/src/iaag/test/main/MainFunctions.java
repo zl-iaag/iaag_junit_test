@@ -16,6 +16,8 @@ public class MainFunctions {
 	public static void main(String args[]) {
 		
 		System.out.print("tested ok");
+		System.out.print("done");
+		
 	}
 	
 }
